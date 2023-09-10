@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- ===== BOX ICONS ===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <title>Portfolio</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Aman Singh</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home" id="home" style="background-color: grey">
+                <div class="home__container bd-grid">
+                    <h1 class="home__title"><span>HELLO</span><br></h1>
+
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-link"><i class='bx bx-up-arrow-alt' ></i>Scroll down</a>
+                    </div>
+
+                    <img src="assets/img/perfil.png" alt="aman singh" class="home__img">
+                </div>
+            </section>
+            
+            <!--===== ABOUT =====-->
+            <section class="about section" id="about">
+                <h2 class="section-title" style=" text-shadow: 0 20px 25px rgba(0,0,0,.5)">ABOUT</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img" style="box-shadow: 0 20px 25px rgba(10,0,0,.5)">
+                        <img src="assets/img/perfil.png" alt="img" >
+                    </div>
+
+                    <div>
+                        <h2 class="about__subtitle" style=" text-shadow: 0 20px 25px rgba(0,0,0,.5)">I'am Aman singh</h2>
+                        <span class="about__profession">CODER</span>
+                        <p class="about__text">I Have Learnt Many Languages Like - HTML,CSS,JAVA,C++.</p>
+                        <ul>
+                            <h3 style=" text-shadow: 0 20px 25px rgba(0,0,0,.5)">Education</h3>
+                            <li><p>10th from PIS,Bhiwadi,Rajasthan</p></li>
+                            <li> <p>12th from PIS,Bhiwadi,Rajasthan</p></li>
+                            <li><p>Pursuing BE.CSE from Chitkara University,Punjab</p></li>
+                        </ul>
+
+                        <div class="about__social">
+                            <a href="https://twitter.com/singh0369aman" class="about__social-icon"><i class='bx bxl-twitter' ></i></a>
+                            <a href="https://github.com/Amansingh0369" class="about__social-icon"><i class='bx bxl-github' ></i></a>
+                            <a href="https://www.instagram.com/singh_aman0369/" class="about__social-icon"><i class='bx bxl-instagram' ></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section style="background-color: darkgray" class="skills section" id="skills">
+                <h2 class="section-title" style=" text-shadow: 0 20px 25px rgba(0,0,0,.5)">Skills</h2>
+
+                <div class="skills__container bd-grid">
+                    <div class="skills__box" style="font-size: larger;color: white; text-shadow: 0 20px 25px rgba(0,0,0,.5)">
+                        <h1 class="skills__subtitle" style=" text-shadow: 0 20px 25px rgba(0,0,0,.5)">Development</h1>
+                        <div class="skills__name" >
+                            <span>Html</span>
+                            <div class="skills__percentage" style="color: white">95%</div>
+                        </div>
+                        <div class="skills__name">
+                            <span>Css</span>
+                            <div class="skills__percentage" style="color: white">85%</div>
+                        </div>
+                        <div class="skills__name">
+                            <span>Java</span>
+                            <div class="skills__percentage" style="color: white">40%</div>
+                        </div>
+                        <div class="skills__name">
+                            <span>C++</span>
+                            <div class="skills__percentage" style="color: white">55%</div>
+                        </div>
+                    </div>
+
+                    <div class="skills__img">
+                        <img src="assets/img/skill.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+
+
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact" style=" text-shadow: 0 20px 25px rgba(0,0,0,.5)">
+                <h2 class="section-title" >Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">EMAIL</h3>
+                        <span class="contact__text">Singh0369aman@gmail.com</span>
+
+                        <h3 class="contact__subtitle">PHONE</h3>
+                        <span class="contact__text">+91 8440908306</span>
+
+                        <h3 class="contact__subtitle">ADDRESS</h3>
+                        <span class="contact__text">BHIWADI,RAJASTHAN</span>
+                    </div>
+
+                    <form action="" class="contact__form">
+                        <div class="contact__inputs">
+                            <input type="text" placeholder="Name" class="contact__input">
+                            <input type="mail" placeholder="Email" class="contact__input">
+                        </div>
+
+                        <textarea name="" id="" cols="0" rows="10" class="contact__input" placeholder="Write here ....."></textarea>
+
+                        <input type="submit" value="Send" class="contact__button">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer section">
+            <div class="footer__container bd-grid">
+                <div class="footer__data">
+                    <h2 class="footer__title">AMAN SINGH</h2>
+                    <p class="footer__text">I'm Aman singh and this is my personal website</p>
+                </div>
+
+                <div class="footer__data">
+                    <h2 class="footer__title">EXPLORE</h2>
+                    <ul>
+                        <li><a href="#home" class="footer__link">Home</a></li>
+                        <li><a href="#about" class="footer__link">About</a></li>
+                        <li><a href="#skills" class="footer__link">Skills</a></li>
+                        <li><a href="#portfolio" class="footer__link">Portfolio</a></li>
+                        <li><a href="#Contact" class="footer__link">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__data">
+                    <h2 class="footer__title">FOLLOW</h2>
+                    <a href="https://www.instagram.com/singh_aman0369/" class="footer__social"><i class='bx bxl-instagram' ></i></a>
+                    <a href="https://twitter.com/singh0369aman" class="footer__social"><i class='bx bxl-twitter' ></i></a>
+                    <a href="https://github.com/Amansingh0369" class="footer__social"><i class='bx bxl-github' ></i></a>
+                </div>
+            </div>
+        </footer>
+    </body>
+
+</html>
